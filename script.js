@@ -3,6 +3,6 @@
 function increase(){
 	const counter = document.getElementById("counter");
 	counter.innerText = parseInt(counter.innerText)+1;
-	alert(parseInt(counter.innerText))
+	alert(parseInt(counter.innerText)-1)
 	// counter.innerText += parseInt(counter)+1;
 }
